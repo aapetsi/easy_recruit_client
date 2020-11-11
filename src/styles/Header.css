@@ -1,0 +1,37 @@
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  align-content: center;
+}
+
+.logo {
+  width: 300px;
+}
+
+.nav-items {
+  display: flex;
+  width: 250px;
+  justify-content: space-between;
+  padding-bottom: 3px;
+}
+
+.nav-item-link {
+  color: #004660;
+  margin: 0 auto;
+  font-size: 24px;
+  text-decoration: none;
+}
+
+.nav-item-button {
+  text-align: center;
+  margin: 0 auto;
+  background-color: #ff551a;
+  color: white;
+  width: 150px;
+  border-radius: 10px;
+  text-decoration: none;
+  font-size: 24px;
+  height: 32px;
+}

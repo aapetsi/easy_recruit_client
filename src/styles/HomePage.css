@@ -1,0 +1,76 @@
+.mini-header {
+  width: 100%;
+  margin: 0 auto;
+  text-align: center;
+  height: 100px;
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+  background-color: #004660;
+  color: white;
+}
+
+.lady-mini-header {
+  position: relative;
+  top: -60px;
+}
+
+.main-image {
+  background-image: url('../assets/EasyRecruit-Web-Elements/Backgrounds/ER_Site_IMG_04.jpg');
+  background-size: contain;
+  height: 90vh;
+  color: white;
+}
+
+.main-text {
+  position: absolute;
+  top: 70%;
+  font-size: 40px;
+  margin-left: 80px;
+}
+
+.about-us {
+  width: 90%;
+  letter-spacing: 2px;
+  font-size: 24px;
+}
+
+.about-sub-heading {
+  color: #ff551a;
+  font-size: 32px;
+  font-weight: bold;
+}
+
+.why-us {
+  margin-top: 50px;
+  padding-top: 50px;
+  border: 1px solid black;
+  background-color: #004660;
+  color: white;
+  height: 400px;
+}
+
+.why-us-details {
+  display: flex;
+  justify-content: space-around;
+  width: 1024px;
+  text-align: center;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.why-us-item {
+  width: 20%;
+  height: 270px;
+  padding-left: 10px;
+  padding-right: 10px;
+  border-right: 1px solid #a0b7bf54;
+}
+
+.why-us-item:last-of-type {
+  border-right: none;
+}
+
+h2 span {
+  font-weight: normal;
+}
