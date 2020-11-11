@@ -124,16 +124,16 @@ const HomePage = () => {
             <NavLink to='/privacy-policy'>Privacy Policy</NavLink>
           </div>
           <div className='socials'>
-            <a>
+            <a href='www.google.com'>
               <i class='fab fa-facebook-square'></i>
             </a>
-            <a>
+            <a href='www.google.com'>
               <i class='fab fa-twitter-square'></i>
             </a>
-            <a>
+            <a href='www.google.com'>
               <i class='fab fa-instagram'></i>
             </a>
-            <a>
+            <a href='www.google.com'>
               <i class='fab fa-pinterest-square'></i>
             </a>
           </div>
