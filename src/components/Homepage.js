@@ -123,7 +123,20 @@ const HomePage = () => {
             <NavLink to='/t-and-c'>Terms and Conditions</NavLink>
             <NavLink to='/privacy-policy'>Privacy Policy</NavLink>
           </div>
-          <div className='socials'></div>
+          <div className='socials'>
+            <a>
+              <i class='fab fa-facebook-square'></i>
+            </a>
+            <a>
+              <i class='fab fa-twitter-square'></i>
+            </a>
+            <a>
+              <i class='fab fa-instagram'></i>
+            </a>
+            <a>
+              <i class='fab fa-pinterest-square'></i>
+            </a>
+          </div>
         </section>
       </div>
     </div>
