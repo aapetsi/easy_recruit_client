@@ -83,47 +83,49 @@ const HomePage = () => {
           </div>
         </div>
       </section>
-      <section className='footer'>
-        <div>
-          <h3>ABOUT US</h3>
-          <p>
-            We connect our candidates with their best possible internships by
-            placing them into the world's fastest growing economies
-          </p>
-          <p>
-            Numerous studies have shown that internship experience is more
-            important for career success than college reputation, GPA or
-            coursework completed.
-          </p>
-        </div>
-        <div>
-          <h3>USEFUL LINKS</h3>
-          <ul>
-            <li>How it works</li>
-            <li>FAQ</li>
-            <li>About Us</li>
-            <li>Industries</li>
-            <li>Contact</li>
-          </ul>
-        </div>
-        <div>
-          <h3>CONTACT US</h3>
-          <ul>
-            <li>+233 031-235-6789</li>
-            <li>+233 024-123-4567</li>
-            <li>contact@theeasyrecruit.com</li>
-          </ul>
-        </div>
-      </section>
-      <hr />
-      <section className='minor-footer'>
-        <div>
-          <p>Copyright (c) 2020. Easy Recruit LLC. All rights reserved</p>
-          <NavLink to='/t-and-c'>Terms and Conditions</NavLink>
-          <NavLink to='/privacy-policy'>Privacy Policy</NavLink>
-        </div>
-        <div className='socials'></div>
-      </section>
+      <div style={{ background: '#e8e8e8' }}>
+        <section className='footer'>
+          <div className='footer-about-us'>
+            <h3>ABOUT US</h3>
+            <p>
+              We connect our candidates with their best possible internships by
+              placing them into the world's fastest growing economies
+            </p>
+            <p>
+              Numerous studies have shown that internship experience is more
+              important for career success than college reputation, GPA or
+              coursework completed.
+            </p>
+          </div>
+          <div className='footer-useful-links'>
+            <h3>USEFUL LINKS</h3>
+            <div className='footer-links'>
+              <a href='www.google.com'>How it works</a>
+              <a href='www.google.com'>FAQ</a>
+              <a href='www.google.com'>About Us</a>
+              <a href='www.google.com'>Industries</a>
+              <a href='www.google.com'>Contact</a>
+            </div>
+          </div>
+          <div className='footer-contact-us'>
+            <h3>CONTACT US</h3>
+            <div>
+              <p>+233 031-235-6789</p>
+              <p>+233 024-123-4567</p>
+              <p>contact@theeasyrecruit.com</p>
+            </div>
+          </div>
+        </section>
+        <hr />
+        <section className='minor-footer'>
+          <div>
+            <p>Copyright (c) 2020. Easy Recruit LLC. All rights reserved</p>
+            <NavLink to='/t-and-c'>Terms and Conditions</NavLink>
+            <NavLink to='/privacy-policy'>Privacy Policy</NavLink>
+          </div>
+          <div className='socials'></div>
+        </section>
+      </div>
     </div>
   )
 }
